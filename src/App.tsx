@@ -24,6 +24,7 @@ function App() {
       <Navbar scrolled={scrolled} />
       <Hero />
       <Product />
+      <Quality />
     </div>
   );
 }
