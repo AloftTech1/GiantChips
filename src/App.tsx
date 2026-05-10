@@ -26,6 +26,7 @@ function App() {
       <Product />
       <Quality />
       <Contact />
+      <Footer />
   
     </div>
   );
