@@ -77,7 +77,7 @@ function Contact() {
             <button
               type="submit"
               disabled={loading || !email.trim()}
-              className="w-full bg-gradient-to-r from-gold to-brown-light hover:from-gold-light hover:to-brown text-cream font-semibold py-4 rounded-full transition-smooth disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-2xl border-2 border-gold/60 glass-strong"
+              className="w-full bg-brown text-white font-semibold py-4 rounded-full transition-all duration-300 hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed shadow-xl border border-gold/30 glass-light"
             >
               {loading ? 'Subscribing...' : 'Join Our Circle'}
             </button>
