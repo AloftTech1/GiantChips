@@ -22,6 +22,7 @@ function App() {
   return (
     <div className="min-h-screen bg-cream text-brown">
       <Navbar scrolled={scrolled} />
+      <Hero />
     </div>
   );
 }
