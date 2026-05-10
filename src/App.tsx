@@ -1,5 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
-import { Mail, Leaf, Sparkles, ChefHat } from 'lucide-react';
+import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Product from './components/Product';
@@ -14,7 +13,9 @@ function App() {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
+
     window.addEventListener('scroll', handleScroll);
+
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
