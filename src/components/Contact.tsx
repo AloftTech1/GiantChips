@@ -78,8 +78,7 @@ function Contact() {
               type="submit"
               disabled={loading || !email.trim()}
               
-            className="w-full glass-strong bg-brown/90 hover:bg-brown text-cream font-semibold py-4 rounded-full transition-smooth disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-2xl border border-gold/30 backdrop-blur-md"
-              >
+className="w-full glass-light bg-brown text-cream font-semibold py-4 rounded-full transition-all duration-300 hover:bg-brown-dark border border-gold/40 shadow-xl hover:shadow-2xl backdrop-blur-md disabled:opacity-50 disabled:cursor-not-allowed"              >
               {loading ? 'Subscribing...' : 'Join Our Circle'}
             </button>
 
